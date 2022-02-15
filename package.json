@@ -1,0 +1,30 @@
+{
+  "name": "@raccoonback/login-firebase-sms-cli",
+  "description": "login firebase sms used by headless",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "raccoonback",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "firebase": "^9.6.6",
+    "puppeteer": "^13.3.2",
+    "static-server": "^2.2.1"
+  },
+  "scripts": {
+    "start": "node lib/index.js"
+  },
+  "bugs": {
+    "email": "kosb15@naver.com"
+  },
+  "bin": {
+    "login-firebase-sms": "lib/index.js",
+    "url": "https://github.com/raccoonback/login-firebase-sms-cli.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raccoonback/login-firebase-sms-cli.git"
+  },
+  "homepage": "https://github.com/raccoonback/login-firebase-sms-cli",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+}
